@@ -8,6 +8,7 @@ Just a small tool to try downloading all the music in a street voice page faster
 
 Python library
 - bs4
+- eyed3
 
 Usage
 --
