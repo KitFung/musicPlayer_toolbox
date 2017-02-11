@@ -1,7 +1,6 @@
 # Introduction
 
-Just a small tool to try downloading all the music in a street voice page faster
-** Only for learning purpose **
+A tools box for music lover to edit the audio file before import them to the player
 
 
 # Requirement:
@@ -9,15 +8,19 @@ Just a small tool to try downloading all the music in a street voice page faster
 Python library
 - bs4
 - eyed3
+- Pillow
 
 Usage
 --
-`python main.py target_url SAVE_FOLDER`
-
+Download music from street voice
+`python street_voice_downloader.py target_url SAVE_FOLDER`
+Resize the cover image directly
+`python resize_coverimg.py folder width height`
 
 Example
 --
 
 ```bash
 python main.py https://tw.streetvoice.com/Serruria/ ../tmusic
+python resize_coverimg.py ~/Download 150 150
 ```
